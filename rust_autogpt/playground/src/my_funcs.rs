@@ -1,3 +1,18 @@
+/// Function: add_five
+///
+/// # Arguments (mum: u32)
+/// 
+/// # Returns u32
+/// 
+/// # Example
+/// ```
+/// let x = 5;
+/// let y = add_five(x);
+/// ```
+///
+/**
+ * This is for the function add_five
+ */ 
 pub fn add_five(num: u32) -> u32 {
     num + 5
 }
