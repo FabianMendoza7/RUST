@@ -47,15 +47,32 @@ fn main() {
 
     // Dynamic sized variables.
 
-    // La siguiente variable es estática 
-    // y no se crea ni en el stack ni el heap, las cadenas
-    // literales tienen un tamaño conocido en tiempo de
-    // compilación y es inmutable.
+    // La siguiente variable es estática, se almacena en el stack
     let name: &str = "Shaun";
     println!("name is {:?}", name);
 
-    //
+    // Esta variable se almacena en el heap y es dinámica
     let dynamic_name: String = String::from("Shaun McDonough");
     println!("dynamic_name is {:?}", dynamic_name);
     println!("my dynamic_name is stored in memory {:p}", &dynamic_name);
+
+    // Variable no estática almacenada en el stack:
+    let str_slice: &str = &dynamic_name[0..5];
+
+    
+    //
+    let mut chars: Vec<char> = Vec::new();
+    chars.insert(0, 'h');
+    chars.insert(1, 'e');
+    chars.insert(2, 'l');
+    chars.push('l');
+    chars.push('o');
+    chars.push('.');
+    println!("chars is {:?}", chars);
+    dbg!(&chars);
+
+    let removed_char: char = chars.pop().unwrap();
+    println!("removed_char is {:?}", removed_char);
+    println!("chars is {:?}", chars);
+
 }
