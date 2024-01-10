@@ -75,4 +75,19 @@ fn main() {
     println!("removed_char is {:?}", removed_char);
     println!("chars is {:?}", chars);
 
+    chars.iter().for_each(|c: &char| println!("char is {}", c));
+    chars.iter().for_each(|c: &char| print!("{}", c));
+
+    let chars_again: Vec<char> = vec!('h','e','l','l','o');
+    dbg!(&chars_again);
+
+    let collected: String = chars_again.iter().collect();
+    dbg!(collected);
+
+    for c in chars_again {
+        print!("{}", c);
+        if c == 'o' {
+            println!(", world!");
+        }
+    }
 }
