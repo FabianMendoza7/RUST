@@ -48,46 +48,52 @@ fn main() {
     // Dynamic sized variables.
 
     // La siguiente variable es estática, se almacena en el stack
-    let name: &str = "Shaun";
-    println!("name is {:?}", name);
+    // let name: &str = "Shaun";
+    // println!("name is {:?}", name);
 
-    // Esta variable se almacena en el heap y es dinámica
-    let dynamic_name: String = String::from("Shaun McDonough");
-    println!("dynamic_name is {:?}", dynamic_name);
-    println!("my dynamic_name is stored in memory {:p}", &dynamic_name);
+    // // Esta variable se almacena en el heap y es dinámica
+    // let dynamic_name: String = String::from("Shaun McDonough");
+    // println!("dynamic_name is {:?}", dynamic_name);
+    // println!("my dynamic_name is stored in memory {:p}", &dynamic_name);
 
-    // Variable no estática almacenada en el stack:
-    let str_slice: &str = &dynamic_name[0..5];
+    // // Variable no estática almacenada en el stack:
+    // let str_slice: &str = &dynamic_name[0..5];
 
     
-    //
-    let mut chars: Vec<char> = Vec::new();
-    chars.insert(0, 'h');
-    chars.insert(1, 'e');
-    chars.insert(2, 'l');
-    chars.push('l');
-    chars.push('o');
-    chars.push('.');
-    println!("chars is {:?}", chars);
-    dbg!(&chars);
+    // //
+    // let mut chars: Vec<char> = Vec::new();
+    // chars.insert(0, 'h');
+    // chars.insert(1, 'e');
+    // chars.insert(2, 'l');
+    // chars.push('l');
+    // chars.push('o');
+    // chars.push('.');
+    // println!("chars is {:?}", chars);
+    // dbg!(&chars);
 
-    let removed_char: char = chars.pop().unwrap();
-    println!("removed_char is {:?}", removed_char);
-    println!("chars is {:?}", chars);
+    // let removed_char: char = chars.pop().unwrap();
+    // println!("removed_char is {:?}", removed_char);
+    // println!("chars is {:?}", chars);
 
-    chars.iter().for_each(|c: &char| println!("char is {}", c));
-    chars.iter().for_each(|c: &char| print!("{}", c));
+    // chars.iter().for_each(|c: &char| println!("char is {}", c));
+    // chars.iter().for_each(|c: &char| print!("{}", c));
 
-    let chars_again: Vec<char> = vec!('h','e','l','l','o');
-    dbg!(&chars_again);
+    // let chars_again: Vec<char> = vec!('h','e','l','l','o');
+    // dbg!(&chars_again);
 
-    let collected: String = chars_again.iter().collect();
-    dbg!(collected);
+    // let collected: String = chars_again.iter().collect();
+    // dbg!(collected);
 
-    for c in chars_again {
-        print!("{}", c);
-        if c == 'o' {
-            println!(", world!");
-        }
-    }
+    // for c in chars_again {
+    //     print!("{}", c);
+    //     if c == 'o' {
+    //         println!(", world!");
+    //     }
+    // }
+
+    // Closures
+    let num: i32 = 5;
+    let add_num = |x: i32| x + num;
+    let new_num: i32 = add_num(7);
+    dbg!(new_num);
 }
