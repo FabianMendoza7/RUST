@@ -1,5 +1,15 @@
+#[derive(Debug)]
+enum CarColour {
+    Red,
+    Green,
+    Blue,
+    Silver
+}
 
-
+fn create_car_colour_blue() -> CarColour {
+    let my_car_colour: CarColour = CarColour::Blue;
+    my_car_colour
+}
 
 #[cfg(test)]
 mod test {
@@ -7,6 +17,8 @@ mod test {
 
     #[test]
     fn tests_enums(){
-        dbg!("HELLO!");
+        //dbg!("HELLO!");
+        let car_colour: CarColour = create_car_colour_blue();
+        dbg!(car_colour);
     }
 }
