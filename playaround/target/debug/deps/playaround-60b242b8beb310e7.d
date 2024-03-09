@@ -1,7 +1,8 @@
-C:\_Projects\FabianMendoza7\rust\playaround\target\debug\deps\libplayaround-60b242b8beb310e7.rmeta: src\main.rs src\m1_enums.rs src\m2_structs.rs
+C:\_Projects\FabianMendoza7\rust\playaround\target\debug\deps\libplayaround-60b242b8beb310e7.rmeta: src\main.rs src\m1_enums.rs src\m2_structs.rs src\m3_traits.rs
 
-C:\_Projects\FabianMendoza7\rust\playaround\target\debug\deps\playaround-60b242b8beb310e7.d: src\main.rs src\m1_enums.rs src\m2_structs.rs
+C:\_Projects\FabianMendoza7\rust\playaround\target\debug\deps\playaround-60b242b8beb310e7.d: src\main.rs src\m1_enums.rs src\m2_structs.rs src\m3_traits.rs
 
 src\main.rs:
 src\m1_enums.rs:
 src\m2_structs.rs:
+src\m3_traits.rs:
