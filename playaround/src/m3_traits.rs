@@ -28,5 +28,5 @@ mod test {
         let my_character: Character = Character::Archer;
         let chosen_fighting_style: String = my_character.choose_style();    
         dbg!(chosen_fighting_style);    
-    }
-}
+    }    
+  }  
