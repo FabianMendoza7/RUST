@@ -1,0 +1,11 @@
+C:\_Projects\FabianMendoza7\rust\playaround\target\debug\deps\libgetrandom-670b813e085c7a6e.rmeta: C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.12\src\lib.rs C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.12\src\error.rs C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.12\src\util.rs C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.12\src\error_impls.rs C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.12\src\windows.rs
+
+C:\_Projects\FabianMendoza7\rust\playaround\target\debug\deps\libgetrandom-670b813e085c7a6e.rlib: C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.12\src\lib.rs C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.12\src\error.rs C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.12\src\util.rs C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.12\src\error_impls.rs C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.12\src\windows.rs
+
+C:\_Projects\FabianMendoza7\rust\playaround\target\debug\deps\getrandom-670b813e085c7a6e.d: C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.12\src\lib.rs C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.12\src\error.rs C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.12\src\util.rs C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.12\src\error_impls.rs C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.12\src\windows.rs
+
+C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.12\src\lib.rs:
+C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.12\src\error.rs:
+C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.12\src\util.rs:
+C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.12\src\error_impls.rs:
+C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.12\src\windows.rs:

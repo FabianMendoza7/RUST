@@ -1,0 +1,9 @@
+C:\_Projects\FabianMendoza7\rust\playaround\target\debug\deps\libethers_signers-143fc7678e255c18.rmeta: C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ethers-signers-2.0.14\src\lib.rs C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ethers-signers-2.0.14\src\wallet\mod.rs C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ethers-signers-2.0.14\src\wallet\mnemonic.rs C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ethers-signers-2.0.14\src\wallet\private_key.rs C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ethers-signers-2.0.14\src\../README.md
+
+C:\_Projects\FabianMendoza7\rust\playaround\target\debug\deps\ethers_signers-143fc7678e255c18.d: C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ethers-signers-2.0.14\src\lib.rs C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ethers-signers-2.0.14\src\wallet\mod.rs C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ethers-signers-2.0.14\src\wallet\mnemonic.rs C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ethers-signers-2.0.14\src\wallet\private_key.rs C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ethers-signers-2.0.14\src\../README.md
+
+C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ethers-signers-2.0.14\src\lib.rs:
+C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ethers-signers-2.0.14\src\wallet\mod.rs:
+C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ethers-signers-2.0.14\src\wallet\mnemonic.rs:
+C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ethers-signers-2.0.14\src\wallet\private_key.rs:
+C:\Users\FEMO\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ethers-signers-2.0.14\src\../README.md:
