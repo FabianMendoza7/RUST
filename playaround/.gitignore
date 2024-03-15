@@ -1,0 +1,17 @@
+# Carpeta donde se almacenan los binarios compilados
+/target/
+
+# Archivo de configuración de Cargo
+Cargo.lock
+
+# Archivos de configuración de Visual Studio Code
+.vscode/
+
+# Archivos de configuración de IntelliJ IDEA
+.idea/
+
+# Archivos de caché
+**/*.rs.bk
+
+# Archivos de documentación generados
+doc/
